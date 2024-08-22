@@ -1,0 +1,70 @@
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.6rem;
+  width: 27.2rem;
+
+  height: 24rem;
+}
+
+.socialCard {
+  background: linear-gradient(
+    93.61deg,
+    rgba(255, 255, 255, 0.03) 1.71%,
+    rgba(220, 223, 234, 0.01) 104.45%,
+    rgba(255, 255, 255, 0.005) 104.45%
+  );
+  border-radius: 3rem;
+
+  padding: 5rem 2rem;
+
+  display: flex;
+  gap: 1rem;
+  height: 12.6rem;
+  width: 22.4rem;
+  max-height: 13.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialCard img {
+  width: 10.2rem;
+  height: 10.2rem;
+}
+
+.subContent {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.spanCustom {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.9);
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.titleCustom {
+  color: rgba(188, 188, 188, 0.5);
+  font-size: 1.3rem;
+}
+
+.innerBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.innerBtn button {
+  font-size: 4rem;
+  background-color: inherit;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

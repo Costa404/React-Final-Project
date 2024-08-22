@@ -1,0 +1,54 @@
+.header,
+.headerLight {
+  max-width: 116rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0rem 5rem 0rem;
+  font-weight: 500;
+}
+
+.headerLight * {
+  color: black;
+}
+.headerL {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.menu {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 5rem;
+  color: rgba(103, 103, 103, 1);
+}
+
+.btn {
+  height: 3.5rem;
+  width: 13.5rem;
+  border-radius: 1.6rem;
+  background: rgba(50, 50, 50, 1);
+  font-weight: 600;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  cursor: pointer;
+}
+.underline a {
+  text-decoration: none;
+
+  font-size: 2rem;
+}
+
+.active {
+  color: white;
+}
+
+.inactive {
+  color: rgba(103, 103, 103, 1);
+}
+
+.header div h6 {
+  color: rgba(255, 255, 255, 1);
+}

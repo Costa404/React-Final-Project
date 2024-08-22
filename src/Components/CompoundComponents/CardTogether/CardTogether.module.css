@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 24rem;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 56.8rem;
+  flex: 1;
+
+  font-size: 2rem;
+  gap: 2.4rem;
+  padding: 0 1rem;
+}
+
+.card img {
+  padding-left: 2rem;
+}
+
+.subContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+}
+
+.subContent span {
+  font-size: 4.4rem;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  flex: 1;
+}
+
+.subContent button {
+  background-color: inherit;
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.colorBlue {
+  color: rgba(91, 120, 246, 1) !important;
+}

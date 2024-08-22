@@ -1,0 +1,20 @@
+.section {
+  display: flex;
+  max-width: 116rem;
+  margin: 0 auto;
+  gap: 2.4rem;
+  max-height: 57rem;
+}
+
+.sectionCol {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 2.4rem;
+}
+
+.sectionTwo {
+  display: flex;
+  max-width: 116rem;
+  gap: 2.4rem;
+}

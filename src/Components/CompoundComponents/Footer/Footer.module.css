@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.footer div {
+  display: flex;
+  gap: 2rem;
+  color: rgba(103, 103, 103, 1);
+}
+
+.footer span {
+  color: rgba(103, 103, 103, 1);
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.color,
+.logo {
+  color: rgba(91, 120, 246, 1) !important;
+}

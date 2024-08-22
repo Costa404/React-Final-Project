@@ -1,0 +1,36 @@
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  width: 56.8rem;
+  height: 24rem;
+
+  flex: 1 auto;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.card h6 {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card span {
+  color: rgba(188, 188, 188, 0.6);
+  font-size: 1.4rem;
+}
+
+.contentAbout {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}

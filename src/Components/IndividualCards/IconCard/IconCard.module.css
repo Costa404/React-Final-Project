@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 56.8rem;
+
+  font-size: 2rem;
+
+  padding-top: 4rem;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  gap: 5rem;
+}
+
+.icons {
+  width: 100%;
+  font-size: 5rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.spans {
+  display: flex;
+  flex-direction: column;
+}
+
+.spans span {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+
+.spans p {
+  font-size: 1.4rem;
+  color: rgba(188, 188, 188, 0.5);
+}
+
+.innerBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.innerBtn button {
+  font-size: 4rem;
+  background-color: inherit;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.subContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
