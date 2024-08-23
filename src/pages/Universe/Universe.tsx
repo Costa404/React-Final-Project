@@ -46,19 +46,17 @@
 
 import style from "./Universe.module.css";
 
-import useAnimation from "./hooks/useAnimation";
+// import useAnimation from "./hooks/useAnimation";
 import BtnDarkLightMode from "../../Components/CompoundComponents/HookCusto/btnDarkLightMode";
-import UseHandlerImg from "./hooks/UseHandlerImg";
+// import UseHandlerImg from "./hooks/UseHandlerImg";
 
 const Universe = () => {
-  useAnimation();
+  // useAnimation();
 
   return (
     <>
       <BtnDarkLightMode />
-      <div className={style.handlerImgs}>
-        <UseHandlerImg />
-      </div>
+      <div className={style.handlerImgs}>{/* <UseHandlerImg /> */}</div>
     </>
   );
 };

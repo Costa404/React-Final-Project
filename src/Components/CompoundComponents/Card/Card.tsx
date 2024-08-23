@@ -4,7 +4,7 @@ import CustomBtn from "../../ContextApi/CustomBtn/CustomBtn";
 import { IconType } from "react-icons";
 
 import "../../../index.css"; // Importa o CSS global
-import { useTheme } from "../../ContextApi/ThemeCustom/ThemeContext";
+// import { useTheme } from "../../ContextApi/ThemeCustom/ThemeContext";
 
 type CardProps = {
   className?: string; // Classe adicional passada como prop
@@ -25,7 +25,7 @@ const Card = ({
   icon: Icon,
   id: Id,
 }: CardProps) => {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
 
   // const cardClass = `${styleCard.card} ${styleCard.cardLight} ${
   //   theme === "dark-theme" ? "card" : "cardLight"
