@@ -3,22 +3,23 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "../src/pages/Homepage/Homepage";
-import About from "../src/pages/About/About";
-import Work from "../src/pages/Work/Work";
-import Contact from "../src/pages/Contact/Contact";
+
 import Error from "../src/Components/CompoundComponents/Error/Error";
 import Root from "../src/Components/CompoundComponents/Routes/Root";
 
-import Universe from "./pages/Universe/Universe";
 import { ThemeProvider } from "./Components/ContextApi/ThemeCustom/ThemeContext";
+import Homepage from "./Components/pages/Homepage/Homepage";
+import About from "./Components/pages/About/About";
+import Work from "./Components/pages/Work/Work";
+import Contact from "./Components/pages/Contact/Contact";
+import Universe from "./Components/pages/Universe/Universe";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <Root>
-        <HomePage />
+        <Homepage />
       </Root>
     ),
   },

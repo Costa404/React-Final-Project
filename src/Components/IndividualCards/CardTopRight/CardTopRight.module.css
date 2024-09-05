@@ -21,47 +21,12 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.card {
-  position: relative;
-
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-}
-
 .subContent {
   display: inline-block;
   position: relative;
-  animation: rotate 1s linear infinite;
 }
 
 .item {
   display: inline-block;
   margin-right: 10px;
-}
-
-.dot {
-  width: 10px; /* Ajuste conforme necessário */
-  height: 10px; /* Ajuste conforme necessário */
-  background-color: red;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.dot:nth-child(1) {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.dot:nth-child(2) {
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.dot:nth-child(3) {
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }

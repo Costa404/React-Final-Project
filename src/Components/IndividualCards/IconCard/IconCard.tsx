@@ -5,7 +5,6 @@ import { MdPhoneIphone } from "react-icons/md";
 import style from "./IconCard.module.css";
 import CustomBtn from "../../ContextApi/CustomBtn/CustomBtn";
 import { GrLinkNext } from "react-icons/gr";
-// import btnSvg from "../../../public/assets/svgs/btn.svg";
 
 const IconCard = () => {
   return (

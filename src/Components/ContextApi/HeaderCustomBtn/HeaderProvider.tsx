@@ -1,11 +1,11 @@
 import { createContext, useContext, useState, ReactNode, FC } from "react";
 
-type HeaderContextType = {
+type HeaderContextProps = {
   activeBtn: string | null;
   setActiveBtn: (titleId: string) => void;
 };
 
-const HeaderContext = createContext<HeaderContextType | undefined>(undefined);
+const HeaderContext = createContext<HeaderContextProps | undefined>(undefined);
 
 export const HeaderProvider: FC<{ children: ReactNode }> = ({ children }) => {
   const [activeBtn, setActiveBtn] = useState<string | null>(null);

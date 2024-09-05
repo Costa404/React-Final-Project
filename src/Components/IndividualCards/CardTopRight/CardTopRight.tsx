@@ -1,4 +1,3 @@
-// import { FaDove } from "react-icons/fa";
 import style from "./CardTopRight.module.css";
 
 const CardTopRight = () => {

@@ -7,7 +7,7 @@ import {
 } from "react";
 
 type ThemeContextType = {
-  theme: string; // Definido como obrigatório, para garantir que o valor sempre está presente
+  theme: string;
   toggleTheme: () => void;
 };
 
@@ -24,20 +24,13 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({
     );
   };
 
-  // useEffect(() => {
-  //   const rootElement = document.getElementById("root");
-  //   if (rootElement) {
-  //     rootElement.className = theme;
-  //   }
-  // }, [theme]);
   useEffect(() => {
-    document.body.className = theme; // Atualiza a classe no body
+    document.body.className = theme;
   }, [theme]);
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={theme}>{children}</div>{" "}
-      {/* Removido o ponto e vírgula extra */}
     </ThemeContext.Provider>
   );
 };
