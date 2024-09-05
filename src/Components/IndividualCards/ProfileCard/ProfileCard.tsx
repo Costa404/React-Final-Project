@@ -6,7 +6,7 @@ const ProfileCard = () => {
   return (
     <div className={`${style.card} card`}>
       <img
-        src="https://img.freepik.com/free-photo/black-white-background-with-tree_23-2150530960.jpg"
+        src="https://c4.wallpaperflare.com/wallpaper/486/591/731/space-galaxy-nasa-spitzer-space-telescope-wallpaper-preview.jpg"
         alt=""
       />
       <div className={style.profileCardContent}>
