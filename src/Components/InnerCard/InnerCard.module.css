@@ -1,0 +1,44 @@
+.innerContent {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4rem;
+  background-color: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.0875);
+  border-radius: 3rem;
+  padding: 2rem; /* Adicionado para evitar que o conteúdo toque as bordas */
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 6rem;
+  padding-top: 4rem;
+}
+
+.innerSubContent {
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+
+.innerSubBtn button {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerSpan {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.innerBtn button {
+  font-size: 4rem;
+  background-color: inherit;
+  border: none;
+}
