@@ -7,10 +7,13 @@ Technologies Used
 
     Vite: For a fast and smooth development experience.
     React: The core library for building the UI.
+
     TypeScript: I used TypeScript to add type safety, making the code a bit cleaner and easier to manage.
+
     React Router: This was essential for navigating between the different pages of my CV.
+
     CSS Modules: I used CSS Modules for styling components, which helped keep the styles scoped and organized.
-    React Hooks: I experimented with various hooks, like useState, useEffect, and more, to manage state and side effects throughout the app.
+    React Hooks: I experimented with various hooks, like useState, useEffect, useContext and more, to manage state and side effects throughout the app.
 
 Reflection
 
