@@ -1,26 +1,25 @@
-// CloudArea.tsx
-import React, { useEffect } from "react";
-import { useCloud } from "./CloudContext";
+// // CloudArea.tsx
+// import React from "react";
 
-interface CloudAreaProps {
-  children: React.ReactNode;
-}
+// interface CloudAreaProps {
+//   children: React.ReactNode;
+// }
 
-const CloudArea: React.FC<CloudAreaProps> = ({ children }) => {
-  const { setVisibility } = useCloud();
+// const CloudArea: React.FC<CloudAreaProps> = ({ children }) => {
+//   const { setVisibility } = useCloud();
 
-  const handleMouseEnter = () => setVisibility(true);
-  const handleMouseLeave = () => setVisibility(false);
+//   const handleMouseEnter = () => setVisibility(true);
+//   const handleMouseLeave = () => setVisibility(false);
 
-  return (
-    <div
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{ display: "inline-block" }} // Ajuste conforme necessário
-    >
-      {children}
-    </div>
-  );
-};
+//   return (
+//     <div
+//       onMouseEnter={handleMouseEnter}
+//       onMouseLeave={handleMouseLeave}
+//       style={{ display: "inline-block" }} // Ajuste conforme necessário
+//     >
+//       {children}
+//     </div>
+//   );
+// };
 
-export default CloudArea;
+// export default CloudArea;
